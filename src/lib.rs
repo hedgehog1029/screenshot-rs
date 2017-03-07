@@ -16,7 +16,7 @@
 extern crate libc;
 
 use std::intrinsics::{size_of, offset};
-pub use ffi::get_screenshot;
+pub use std::ffi::get_screenshot;
 
 
 #[derive(Clone, Copy)]
